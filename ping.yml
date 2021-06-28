@@ -1,0 +1,5 @@
+name: ping the end points
+hosts: all
+tasks:
+- name: ping the servers
+  ping:
